@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'Domain';
+    src: url('/fonts/5f242a69b1577e63266b4d72_DomaineDispCondMedium.woff2') format('woff2');
+}
+  
+@font-face {
+    font-family: 'Editorial';
+    src: url('/fonts/5f242a694256f02b944d5767_EditorialNew-Light.woff2') format('woff2');
+}
+  
+@font-face {
+    font-family: 'Canopee';
+    src: url('/fonts/616fd1dd00cf6c70f978fc69_Canopee.woff2') format('woff2');
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height:100%;
+    font-family: 'Canopee';
+}
+
+body{
+    overflow-x: hidden;
+    background-color: black;
+}
+
+.swiper {
+    width: 100%;
+    height: fit-content;
+}
+
+.card{
+    font-family: "Playfair Display"!important
+}
+
+.card:hover{
+    background-color:#a6998c;
+}
+
+.cards:hover> :not(:hover){
+    filter:blur(1px)
+}
+
+@media screen and (max-width:767px) {
+      .allwork{
+        border:none !important;
+      }  
+}
+
+
+  
