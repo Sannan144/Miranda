@@ -9,9 +9,9 @@ let close = ()=>{
   return (
     <div style={{ boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)', top:`${topVal}vh` }} className='w-full h-[40vh] bg-[#a6998c] fixed left-0 z-50 flex justify-evenly items-center transition-all duration-400'>
 
-        <h1 className='text-[8vw] uppercase'>index</h1>
-        <h1 className='text-[8vw] uppercase'>About</h1>
-        <h1 className='text-[8vw] uppercase'>works</h1>
+        <h1 className='text-[8vw] uppercase cursor-pointer hover:scale-[1.1] transition-all duration-300'>index</h1>
+        <h1 className='text-[8vw] uppercase cursor-pointer hover:scale-[1.1] transition-all duration-300'>About</h1>
+        <h1 className='text-[8vw] uppercase cursor-pointer hover:scale-[1.1] transition-all duration-300'>works</h1>
 
             <button
             onClick={close}

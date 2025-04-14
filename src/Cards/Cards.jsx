@@ -31,7 +31,7 @@ let [checkSm , setCheckSm] = useState()
   
 
   return (
-    <div className='cards w-full h-fit py-10 flex flex-col md:flex-row gap-3 md:gap-0 px-3'>
+    <div className='cards w-full h-fit py-10 flex flex-col md:flex-row gap-3 md:gap-0 px-3 select-none'>
         {
           cardData.map((item , index)=>{
             return(

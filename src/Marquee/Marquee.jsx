@@ -4,7 +4,7 @@ import { motion } from "motion/react"
 const Marquee = () => {
 
   return (
-    <div className='border-t border-b py-5'>
+    <div className='border-t border-b py-5 w-full overflow-hidden'>
       <motion.div
        className='flex gap-[18px]'
        initial={{x:0}}
